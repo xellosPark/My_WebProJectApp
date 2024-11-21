@@ -1,0 +1,52 @@
+/* 전체 컨테이너 */.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* 테이블 컨테이너 */.table-container {
+  width: 100%;
+  overflow-x: auto; /* 화면이 작아지면 가로 스크롤 허용 */
+  margin-bottom: 20px;
+}
+
+/* 반응형 테이블 */.responsive-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.responsive-table th,
+.responsive-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.responsive-table th {
+  background-color: #f8f8f8;
+  font-weight: bold;
+}
+
+/* 버튼 컨테이너 */.button-container {
+  display: flex;
+  gap: 10px;
+}
+
+.button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
