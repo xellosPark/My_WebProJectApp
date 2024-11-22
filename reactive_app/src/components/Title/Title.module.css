@@ -1,0 +1,7 @@
+.title {
+    /* 제목 스타일 */
+    font-size: 2rem; /* 글자 크기 */
+    text-align: center; /* 텍스트 중앙 정렬 */
+    color: var(--primary-color); /* 제목 색상 */
+    margin-bottom: 1rem; /* 아래쪽 여백 */
+  }

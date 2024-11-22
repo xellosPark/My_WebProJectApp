@@ -1,0 +1,29 @@
+/* 스마트폰 크기 설정 (768px 이하) */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+        /* 글자 크기 축소 */
+        background-color: #ffe4e1;
+        /* 스마트폰용 밝은 핑크 배경색 */
+    }
+}
+
+/* 태블릿 크기 설정 (768px ~ 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    body {
+        font-size: 16px;
+        /* 글자 크기 중간 크기 */
+        background-color: #fafad2;
+        /* 태블릿용 밝은 골드 배경색 */
+    }
+}
+
+/* PC 크기 설정 (1024px 이상) */
+@media (min-width: 1024px) {
+    body {
+        font-size: 18px;
+        /* 글자 크기 확대 */
+        background-color: #d8bfd8;
+        /* PC용 밝은 퍼플 배경색 */
+    }
+}

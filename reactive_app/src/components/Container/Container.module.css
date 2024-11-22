@@ -1,0 +1,9 @@
+.container {
+  max-width: 1200px; /* 중앙 정렬 및 최대 너비 제한 */
+  margin: 0 auto; /* 수평 중앙 정렬 */
+  padding: 1rem; /* 내부 여백 */
+  background-color: var(--background-color, #ffffff); /* 흰색 배경 */
+  border-radius: 8px; /* 둥근 모서리 */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* 가벼운 그림자 */
+  height: 74vh;
+}

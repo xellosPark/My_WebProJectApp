@@ -1,0 +1,25 @@
+.grid {
+  /* 반응형 그리드 컨테이너 */
+  display: grid; /* 그리드 레이아웃 활성화 */
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* 자동 열 크기 조정 */
+  gap: 1rem; /* 그리드 아이템 간격 */
+  
+}
+
+.gridItem {
+  /* 그리드 아이템 스타일 */
+  background-color: var(--secondary-color, #2ecc71); /* 초록색 배경 (변수 없을 시 기본값 설정) */
+  color: white; /* 텍스트 색상 */
+  text-align: center; /* 텍스트 중앙 정렬 */
+  padding: 1.5rem; /* 내부 여백 증가 */
+  border-radius: 5px; /* 둥근 모서리 */
+  font-size: 1rem; /* 폰트 크기 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 더 뚜렷한 그림자 */
+  transition: transform 0.2s ease, box-shadow 0.2s ease; /* 애니메이션 추가 */
+}
+
+.gridItem:hover {
+  /* 호버 시 강조 효과 */
+  transform: translateY(-5px); /* 살짝 위로 이동 */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* 강조된 그림자 */
+}
