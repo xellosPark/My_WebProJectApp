@@ -1,0 +1,22 @@
+.pc-layout {
+  padding: 20px;
+}
+
+.pc-header {
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+}
+
+.pc-main {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.pc-footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}

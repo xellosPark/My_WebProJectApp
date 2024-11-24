@@ -3,12 +3,15 @@ import "./styles/base.css"; // 기본 스타일
 import Container from "./components/Container/Container"; // 컨테이너 컴포넌트
 // import Title from "./components/Title/Title"; // 제목 컴포넌트
 import ResponsiveGrid from "./components/ResponsiveGrid/ResponsiveGrid"; // 반응형 그리드 컴포넌트
+import Header from "./components/Header/Header";
 
 function App() {
   return (
     <>
       {/* 헤더 영역 */}
-      <header className="header">Responsive Design App</header>
+      {/* <header className="header">Responsive Design App</header> */}
+         {/* 헤더 영역 */}
+         <Header />
 
       {/* 메인 컨테이너 */}
       <Container>

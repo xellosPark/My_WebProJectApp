@@ -1,0 +1,22 @@
+.tablet-layout {
+  padding: 15px;
+}
+
+.tablet-header {
+  background-color: #e9ecef;
+  padding: 15px;
+  text-align: center;
+}
+
+.tablet-main {
+  margin: 15px 0;
+  padding: 15px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+.tablet-footer {
+  background-color: #f8f9fa;
+  padding: 10px;
+  text-align: center;
+}
